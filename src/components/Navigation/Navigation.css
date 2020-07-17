@@ -1,0 +1,7 @@
+.navbarItem{
+    color: "#14213D";
+}
+
+.navbarItem:hover{
+    border-bottom: 3px solid #fca311 ;
+}
