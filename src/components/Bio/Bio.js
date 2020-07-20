@@ -19,7 +19,7 @@ class Bio extends Component {
                             <li style={{padding: "5px"}}><span className="emph_bio">2018</span> - <b>Introduction to programming</b> with Python and basics of HTML/CSS in High school Informatics class <br/></li>
                             <li style={{padding: "5px"}}><span className="emph_bio">2019</span> - University of Computer Science and Informatics in Ljubljana. Start of my journey with fundamentals of programming with <b>Python and Java</b>. During summer I enrolled in Smart Ninja Introduction to Web Development course where I studied front-end <b>HTML/CSS/JS</b> and back-end <b>Python/Flask</b>. <br></br></li>
                             <li style={{padding: "5px"}}><span className="emph_bio">2020</span> - Started learning <b>React</b> with online courses and personal projects. When working on my projects I experimented and learned back-end technologies <b>PHP, Node.js/Express.js and Python/Flask</b>. My latest experience is working on a student project "Pametno z odpadki" where I developed a mobile application in <b>Flutter</b> and builded a project website.</li>
-                            <li> To find out more about me, see <a href="#portfolio" className="emph_bio">my work</a> or <a className="emph_bio" href="contact">contact me!</a> </li>
+                            <li> To find out more about me, see <a href="#portfolio" className="emph_bio">my work</a> or <a className="emph_bio" href="#contact">contact me!</a> </li>
                         </ul> 
                         </Subtitle>
                     </Container>

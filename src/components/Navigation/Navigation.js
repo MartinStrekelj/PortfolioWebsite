@@ -21,14 +21,11 @@ class Navigation extends Component {
                     <NavbarItem  href="#portfolio" className="navbarItem">
                         <Title isSize={6} >Portfolio</Title>
                     </NavbarItem>
-                    <NavbarItem href="#" className="navbarItem">
+                    <NavbarItem href="#contact" className="navbarItem">
                         <Title isSize={6} >Contact</Title>
                     </NavbarItem>
-                    <NavbarItem href="#" className="navbarItem">
+                    <NavbarItem href="#blog" className="navbarItem">
                         <Title isSize={6}> Blog </Title>
-                    </NavbarItem>
-                    <NavbarItem href="#" className="navbarItem">
-                        <Title isSize={6} >SL | <b>EN</b> </Title>
                     </NavbarItem>
                 </NavbarEnd> 
             </Navbar>

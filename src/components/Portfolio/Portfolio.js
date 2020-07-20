@@ -11,42 +11,48 @@ const Portfolio = () => {
             techs: ["PHP", "HTML", "CSS", "JavaScript"],
             bio: "info",
             github: "",
-            demo: ""
+            demo: "",
+            pic: "./img/pametnozodpadki_ws.jpg"
         },
         {
             projectName: "Pametno z odpadki - mobile app",
             techs: ["Flutter"],
             bio: "info",
             github: "",
-            demo: ""
+            demo: "",
+            pic: "./img/pametnozodpadki_ws.jpg"
         },
         {
             projectName: "Pod Skalco",
             techs: ["PHP", "HTML", "CSS", "JavaScript"],
             bio: "info",
             github: "",
-            demo: ""
+            demo: "",
+            pic: "./img/pametnozodpadki_ws.jpg"
         },
         {
             projectName: "Ultimate Trip Planner",
             techs: ["HTML", "CSS", "JavaScript"],
             bio: "info",
             github: "",
-            demo: ""
+            demo: "",
+            pic: "./img/pametnozodpadki_ws.jpg"
         },
         {
             projectName: "RoboFriends",
             techs: ["React", "CSS", "JavaScript"],
             bio: "info",
             github: "",
-            demo: ""
+            demo: "",
+            pic: "./img/pametnozodpadki_ws.jpg"
         },
         {
             projectName: "FaceRecognitionApp",
             techs: ["React", "Node.js", "CSS", "JavaScript"],
             bio: "info",
             github: "",
-            demo: ""
+            demo: "",
+            pic: "./img/pametnozodpadki_ws.jpg"
         },
     ];
 

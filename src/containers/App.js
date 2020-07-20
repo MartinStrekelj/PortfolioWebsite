@@ -5,6 +5,8 @@ import Navigation from "../components/Navigation/Navigation";
 import Landing from "../components/Landing/Landing"
 import About from "../components/About/About"
 import Portfolio from '../components/Portfolio/Portfolio';
+import Blog from '../components/Blog/Blog';
+import Contact from '../components/Contact/Contact';
 
 class App extends Component {
 
@@ -17,6 +19,8 @@ class App extends Component {
         <Landing />
         <About />
         <Portfolio />
+        <Blog/>
+        <Contact />
       </div>
     );
    }
