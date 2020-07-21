@@ -9,7 +9,7 @@ class Project extends Component {
 
     render(){
         return (
-            <Card>
+            <Card style={{height: "100%", display:"flex", flexDirection: "column"}}>
                 <CardHeader style={{borderBottom: "1px solid black"}}>
                     <CardHeaderTitle>{this.props.projectName}</CardHeaderTitle>
                 </CardHeader>
@@ -24,8 +24,8 @@ class Project extends Component {
                         {this.props.projectBio}
                     </Subtitle>
                 </CardContent>
-                <CardFooter>
-                    <CardFooterItem href={this.props.projectDemo}> <span style={{padding: "5px"}}><FontAwesomeIcon icon={faFileCode}/></span> Demo</CardFooterItem>
+                <CardFooter style={{marginTop: "auto"}}>
+                    <CardFooterItem href={this.props.projectDemo}> <span style={{padding: "5px"}}><FontAwesomeIcon icon={faFileCode}/></span> Preview</CardFooterItem>
                     <CardFooterItem href={this.props.projectGithub}> <span style={{padding: "5px"}}><FontAwesomeIcon icon={faCode}/></span> Project code </CardFooterItem>
                 </CardFooter>
             </Card>

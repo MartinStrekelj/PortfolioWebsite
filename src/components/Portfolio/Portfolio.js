@@ -12,41 +12,41 @@ import image4 from "../Project/img/facerecog.jpg"
 const Portfolio = () => {
     const projects = [
         {
-            projectName: "Pametno z odpadki - website",
+            projectName: "www.pametnozodpadki.si",
             techs: ["PHP", "HTML", "CSS", "JavaScript"],
-            bio: "info",
-            github: "",
-            demo: "",
+            bio: "Product for Student project ŠIPK. Website was an overview of group activity and results.",
+            github: "https://github.com/SWManagement/SWManagementWebsite",
+            demo: "www.pametnozodpadki.si",
             pic: image
         },
         {
             projectName: "Kam spada moj odpadek?",
             techs: ["Flutter"],
-            bio: "info",
-            github: "",
+            bio: "",
+            github: "https://github.com/SWManagement/FlutterMobileApp",
             demo: "",
             pic: "./img/pametnozodpadki_ws.jpg"
         },
         {
             projectName: "Pod Skalco",
             techs: ["PHP", "HTML", "CSS", "JavaScript"],
-            bio: "info",
-            github: "",
+            bio: "Activity and event management web application. Portfolio project was made for a fictional Sport club  to manage events and gather interes for its members.",
+            github: "https://github.com/MartinStrekelj/podSkalco",
             demo: "",
             pic: image1
         },
         {
             projectName: "Ultimate Trip Planner",
             techs: ["HTML", "CSS", "JavaScript"],
-            bio: "info",
-            github: "",
-            demo: "",
+            bio: "Trip planner implemented with Google directions API.",
+            github: "https://github.com/MartinStrekelj/UltimateTripPlanner",
+            demo: "https://martinstrekelj.github.io/UltimateTripPlanner/",
             pic: image2
         },
         {
             projectName: "RoboFriends",
             techs: ["React", "CSS", "JavaScript"],
-            bio: "info",
+            bio: "Introductory project for learning React framework. RoboFriends is a responsive application with funky randomly generated and searchable robots.",
             github: "",
             demo: "",
             pic: image3
@@ -54,7 +54,7 @@ const Portfolio = () => {
         {
             projectName: "FaceRecognitionApp",
             techs: ["React", "Node.js", "CSS", "JavaScript"],
-            bio: "info",
+            bio: "My first bigger project to learn React and Node.js. Application with help of Clarifai API recognises faces on pictures.",
             github: "",
             demo: "",
             pic: image4
@@ -69,7 +69,7 @@ const Portfolio = () => {
                 {
                     projects.map((project) =>{
                         return (
-                            <Column isSize="1/3"> <Project projectPhoto={project.pic} projectName={project.projectName} techs={project.techs} projectBio={project.bio} projectGithub={project.bio} projectDemo={project.demo} /></Column>
+                            <Column isSize="1/3"> <Project projectPhoto={project.pic} projectName={project.projectName} techs={project.techs} projectBio={project.bio} projectGithub={project.github} projectDemo={project.demo} /></Column>
                         )
                     })
                 }
