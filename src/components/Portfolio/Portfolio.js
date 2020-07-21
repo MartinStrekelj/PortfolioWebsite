@@ -63,7 +63,7 @@ const Portfolio = () => {
 
         return (
             <Hero isSize="large" isColor="white">
-                <Container isFluid="true">
+                <Container className="containerZ" isFluid="true">
                 <Title isSpaced="true" isSize={2} style={{paddingTop: "20px"}} id="portfolio">Portfolio</Title>
                 <Columns isMultiline="true">
                 {

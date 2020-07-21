@@ -6,7 +6,7 @@ const Blog = () => {
 
 
         return (
-            <Hero isSize="small" isColor="white">
+            <Hero className="containerZ" isSize="small" isColor="white">
                     <Container isFluid="true" style={{padding: "20px"}}>
                         <Title isSize={2} style={{paddingTop: "20px"}} id="blog">Blog</Title>
                         <Subtitle isSize={4}>Developer tutorials and rants.</Subtitle>

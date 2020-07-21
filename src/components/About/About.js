@@ -9,8 +9,8 @@ const About = () => {
 
 
         return (
-            <Hero isSize="large" isColor="white">
-                    <Container isFluid="true">
+            <Hero className="containerZ" isSize="large" isColor="white">
+                    <Container className="containerZ" isFluid="true">
                         <Title isSpaced="true" isSize={2} style={{paddingTop: "20px"}} id="about">About</Title>
                         <Columns style={{marginTop: "25px"}} hasTextAlign="centered">
                             <Column isSize="2/3">
