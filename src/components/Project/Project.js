@@ -10,11 +10,11 @@ class Project extends Component {
     render(){
         return (
             <Card>
-                <CardHeader>
+                <CardHeader style={{borderBottom: "1px solid black"}}>
                     <CardHeaderTitle>{this.props.projectName}</CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
-                    <Image isRatio="3:2" src='https://via.placeholder.com/1280x960'></Image>
+                    <Image isRatio="3:2" src={this.props.projectPhoto}></Image>
                 </CardImage>
                 <CardContent>
                     <Level>
@@ -25,7 +25,6 @@ class Project extends Component {
                     </Subtitle>
                 </CardContent>
                 <CardFooter>
-                    
                     <CardFooterItem href={this.props.projectDemo}> <span style={{padding: "5px"}}><FontAwesomeIcon icon={faFileCode}/></span> Demo</CardFooterItem>
                     <CardFooterItem href={this.props.projectGithub}> <span style={{padding: "5px"}}><FontAwesomeIcon icon={faCode}/></span> Project code </CardFooterItem>
                 </CardFooter>

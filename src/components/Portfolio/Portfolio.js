@@ -1,6 +1,11 @@
 import React from 'react';
 import { Hero, Columns, Column, Title, Container } from 'bloomer';
 import Project from "../Project/Project"
+import image from "../Project/img/Pametnozodpadki_ws.jpg"
+import image1 from "../Project/img/podskalco.jpg"
+import image2 from "../Project/img/UTP.jpg"
+import image3 from "../Project/img/robofriends.jpg"
+import image4 from "../Project/img/facerecog.jpg"
 
 
 
@@ -12,10 +17,10 @@ const Portfolio = () => {
             bio: "info",
             github: "",
             demo: "",
-            pic: "./img/pametnozodpadki_ws.jpg"
+            pic: image
         },
         {
-            projectName: "Pametno z odpadki - mobile app",
+            projectName: "Kam spada moj odpadek?",
             techs: ["Flutter"],
             bio: "info",
             github: "",
@@ -28,7 +33,7 @@ const Portfolio = () => {
             bio: "info",
             github: "",
             demo: "",
-            pic: "./img/pametnozodpadki_ws.jpg"
+            pic: image1
         },
         {
             projectName: "Ultimate Trip Planner",
@@ -36,7 +41,7 @@ const Portfolio = () => {
             bio: "info",
             github: "",
             demo: "",
-            pic: "./img/pametnozodpadki_ws.jpg"
+            pic: image2
         },
         {
             projectName: "RoboFriends",
@@ -44,7 +49,7 @@ const Portfolio = () => {
             bio: "info",
             github: "",
             demo: "",
-            pic: "./img/pametnozodpadki_ws.jpg"
+            pic: image3
         },
         {
             projectName: "FaceRecognitionApp",
@@ -52,7 +57,7 @@ const Portfolio = () => {
             bio: "info",
             github: "",
             demo: "",
-            pic: "./img/pametnozodpadki_ws.jpg"
+            pic: image4
         },
     ];
 
@@ -64,7 +69,7 @@ const Portfolio = () => {
                 {
                     projects.map((project) =>{
                         return (
-                            <Column isSize="1/3"> <Project projectName={project.projectName} techs={project.techs} projectBio={project.bio} projectGithub={project.bio} projectDemo={project.demo} /></Column>
+                            <Column isSize="1/3"> <Project projectPhoto={project.pic} projectName={project.projectName} techs={project.techs} projectBio={project.bio} projectGithub={project.bio} projectDemo={project.demo} /></Column>
                         )
                     })
                 }
