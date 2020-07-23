@@ -1,11 +1,11 @@
 import React from 'react';
 import { Hero, Columns, Column, Title, Container } from 'bloomer';
 import Project from "../Project/Project"
-import image from "../Project/img/Pametnozodpadki_ws.jpg"
-import image1 from "../Project/img/podskalco.jpg"
-import image2 from "../Project/img/UTP.jpg"
-import image3 from "../Project/img/robofriends.jpg"
-import image4 from "../Project/img/facerecog.jpg"
+import image from "../Project/img/pametnozodpadki.png"
+import image1 from "../Project/img/podskalco.png"
+import image2 from "../Project/img/UTP.png"
+import image3 from "../Project/img/robofriends.png"
+import image4 from "../Project/img/faceRecog.png"
 
 
 
@@ -16,21 +16,21 @@ const Portfolio = () => {
             techs: ["PHP", "HTML", "CSS", "JavaScript"],
             bio: "Product for Student project ŠIPK. Website was an overview of group activity and results.",
             github: "https://github.com/SWManagement/SWManagementWebsite",
-            demo: "www.pametnozodpadki.si",
+            demo: "http://www.pametnozodpadki.si/",
             pic: image
         },
         {
             projectName: "Kam spada moj odpadek?",
             techs: ["Flutter"],
-            bio: "",
+            bio: "Product for Student project ŠIPK. Main mobile application functionality is to scan products barcode and provide recycling information. Successful scans rewards user with points to water the plant which grows on achieved thresholds. Application is available on Google Play.",
             github: "https://github.com/SWManagement/FlutterMobileApp",
             demo: "",
-            pic: "./img/pametnozodpadki_ws.jpg"
+            pic: image
         },
         {
             projectName: "Pod Skalco",
             techs: ["PHP", "HTML", "CSS", "JavaScript"],
-            bio: "Activity and event management web application. Portfolio project was made for a fictional Sport club  to manage events and gather interes for its members.",
+            bio: "Activity and event management web application. Portfolio project was made for a fictional Sport club and its members to manage events.",
             github: "https://github.com/MartinStrekelj/podSkalco",
             demo: "",
             pic: image1

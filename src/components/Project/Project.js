@@ -14,7 +14,7 @@ class Project extends Component {
                     <CardHeaderTitle>{this.props.projectName}</CardHeaderTitle>
                 </CardHeader>
                 <CardImage>
-                    <Image isRatio="3:2" src={this.props.projectPhoto}></Image>
+                    <Image isRatio="" src={this.props.projectPhoto}></Image>
                 </CardImage>
                 <CardContent>
                     <Level>
