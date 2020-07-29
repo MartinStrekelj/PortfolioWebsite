@@ -20,7 +20,7 @@ const TechStack = ({techs}) => {
                             color = "danger"
                         }else if (tech === "Flutter"){
                             color = "success"
-                        }else if (tech === "Node.js"){
+                        }else if (tech === "Node.js / Express.js"){
                             color = "black"
                         }  else{
                             color = "light"

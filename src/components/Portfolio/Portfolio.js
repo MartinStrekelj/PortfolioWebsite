@@ -17,21 +17,28 @@ const Portfolio = () => {
             bio: "Product for Student project ŠIPK. Website was an overview of group activity and results.",
             github: "https://github.com/SWManagement/SWManagementWebsite",
             demo: "http://www.pametnozodpadki.si/",
+            sampleLogin: "",
             pic: image
         },
         {
-            projectName: "Kam spada moj odpadek?",
-            techs: ["Flutter"],
-            bio: "Product for Student project ŠIPK. Main mobile application functionality is to scan products barcode and provide recycling information. Successful scans rewards user with points to water the plant which grows on achieved thresholds. Application is available on Google Play.",
-            github: "https://github.com/SWManagement/FlutterMobileApp",
-            demo: "",
-            pic: image
+            projectName: "FaceRecognitionApp",
+            techs: ["React", "Node.js / Express.js", "CSS", "JavaScript"],
+            bio: "My first bigger project to learn React and Node.js. Application with help of Clarifai API recognises faces on pictures. I also build my own back-end with Express.js and Postgres DB.",
+            github: "https://github.com/MartinStrekelj/face-recognition",
+            demo: "https://ms-face-recognition.herokuapp.com/",
+            sampleLogin: true,
+            sampleLoginName: "test@email.com",
+            sampleLoginPass: "test",
+            pic: image4
         },
         {
             projectName: "Pod Skalco",
             techs: ["PHP", "HTML", "CSS", "JavaScript"],
             bio: "Activity and event management web application. Portfolio project was made for a fictional Sport club and its members to manage events.",
             github: "https://github.com/MartinStrekelj/podSkalco",
+            sampleLogin: true,
+            sampleLoginName: "test@email.com",
+            sampleLoginPass: "test",
             demo: "",
             pic: image1
         },
@@ -41,6 +48,9 @@ const Portfolio = () => {
             bio: "Trip planner implemented with Google directions API.",
             github: "https://github.com/MartinStrekelj/UltimateTripPlanner",
             demo: "https://martinstrekelj.github.io/UltimateTripPlanner/",
+            sampleLogin: false,
+            sampleLoginName: "test@email.com",
+            sampleLoginPass: "test",
             pic: image2
         },
         {
@@ -49,15 +59,21 @@ const Portfolio = () => {
             bio: "Introductory project for learning React framework. RoboFriends is a responsive application with funky randomly generated and searchable robots.",
             github: "",
             demo: "",
+            sampleLogin: false,
+            sampleLoginName: "test@email.com",
+            sampleLoginPass: "test",
             pic: image3
         },
         {
-            projectName: "FaceRecognitionApp",
-            techs: ["React", "Node.js", "CSS", "JavaScript"],
-            bio: "My first bigger project to learn React and Node.js. Application with help of Clarifai API recognises faces on pictures.",
-            github: "",
+            projectName: "Kam spada moj odpadek?",
+            techs: ["Flutter"],
+            bio: "Product for Student project ŠIPK. Main mobile application functionality is to scan products barcode and provide recycling information. Successful scans rewards user with points to water the plant which grows on achieved thresholds. Application is available on Google Play.",
+            github: "https://github.com/SWManagement/FlutterMobileApp",
+            sampleLogin: false,
+            sampleLoginName: "test@email.com",
+            sampleLoginPass: "test",
             demo: "",
-            pic: image4
+            pic: image
         },
     ];
 
@@ -69,7 +85,19 @@ const Portfolio = () => {
                 {
                     projects.map((project) =>{
                         return (
-                            <Column isSize="1/3"> <Project projectPhoto={project.pic} projectName={project.projectName} techs={project.techs} projectBio={project.bio} projectGithub={project.github} projectDemo={project.demo} /></Column>
+                            <Column isSize="1/3"> 
+                                <Project 
+                                    projectPhoto={project.pic} 
+                                    projectName={project.projectName} 
+                                    techs={project.techs} 
+                                    projectBio={project.bio} 
+                                    projectGithub={project.github} 
+                                    projectDemo={project.demo}
+                                    projectSample={project.sampleLogin}
+                                    projectSampleName={project.sampleLoginName}
+                                    projectSamplePass={project.sampleLoginPass}  
+                                />
+                            </Column>
                         )
                     })
                 }

@@ -21,7 +21,7 @@ class Landing extends Component {
                  <Particles className="particles" params={particleParams} />
                 <HeroBody>
                     <Container className="containerZ" hasTextAlign="centered">
-                        <Title isSize={1}> Hello, I'm <span className="emph_text">Martin Štrekelj</span>.<br/>I'm a full-stack web <span className="emph_text">developer</span>.</Title>
+                        <Title isSize={1}> Hello, I'm <span className="emph_text">Martin Štrekelj</span>,<br/>a web <span className="emph_text">developer</span>.</Title>
                         <Button href="#about" isOutlined="true" isSize="medium" isColor="dark" style={{border: "2px solid #fca311", margin: "20px", color: "#fca311"}}>Learn more about me</Button>
                         <Button href="#portfolio" isOutlined="true" isSize="medium" isColor="dark" style={{border: "2px solid #fca311", margin: "20px", color: "#fca311"}}>My work</Button>
                     </Container>

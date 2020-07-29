@@ -29,9 +29,11 @@ const About = () => {
                                 <Skills skillvalue="95" skill="CSS"></Skills>
                                 <Skills skillvalue="75" skill="JavaScript"></Skills>
                                 <Skills skillvalue="75" skill="React"></Skills>
+                                <Skills skillvalue="75" skill="Node.js / Express.js"></Skills>
+                                <Skills skillvalue="75" skill="MySQL / PostgreSQL"></Skills>
                                 <Skills skillvalue="60" skill="Flutter"></Skills>
                                 <Skills skillvalue="60" skill="PHP"></Skills>
-                                <Skills skillvalue="50" skill="Node.js"></Skills>
+                                <Skills skillvalue="50" skill="Flask"></Skills>
                                 </Column>
                         </Columns>  
                     </Container>
