@@ -1,7 +1,7 @@
 import React from 'react';
 import { Hero, Title, Container, Columns, Column} from "bloomer";
-import Skills from "../Skills/Skills";
-import ProfilePhoto from "../ProfilePhoto/ProfilePhoto";
+import Skills from "../../components/Skills/Skills";
+import ProfilePhoto from "../../components/ProfilePhoto/ProfilePhoto";
 import Bio from "../Bio/Bio";
 
 

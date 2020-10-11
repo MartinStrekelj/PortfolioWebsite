@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import TechStack from "../TechStack/TechStack";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faFileCode } from '@fortawesome/free-solid-svg-icons'
-import SampleLogin from "../SampleLogin/SampleLogin"
+import SampleLogin from "./SampleLogin/SampleLogin"
 
 
 class Project extends Component {
