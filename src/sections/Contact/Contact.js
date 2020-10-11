@@ -16,9 +16,24 @@ class Contact extends Component{
                     <HeroBody>
                         <Level className="containerZ">
                             <LevelLeft className="containerZ">
-                                <LevelItem><span style={{padding: "5px"}}><FontAwesomeIcon icon={faEnvelope}/></span>martin.strekelj123@gmail.com</LevelItem>
-                                <LevelItem style={{color: "white"}} href="https://github.com/MartinStrekelj"><span style={{padding: "5px"}}><FontAwesomeIcon icon={faGithub}/></span>MartinStrekelj</LevelItem>
-                                <LevelItem style={{color: "white"}} href="https://www.linkedin.com/in/martin-%C5%A1trekelj-951b2818a/"><span style={{padding: "5px"}}><FontAwesomeIcon icon={faLinkedin}/></span>Martin Štrekelj</LevelItem>
+                                <LevelItem>
+                                    <span style={{padding: "5px"}}><FontAwesomeIcon icon={faEnvelope}/></span>
+                                    martin.strekelj123@gmail.com
+                                </LevelItem>
+                                <LevelItem
+                                    target="_blank" 
+                                    style={{color: "white"}} 
+                                    href="https://github.com/MartinStrekelj">
+                                    <span style={{padding: "5px"}}><FontAwesomeIcon icon={faGithub}/></span>
+                                    MartinStrekelj
+                                </LevelItem>
+                                <LevelItem
+                                    target="_blank"
+                                    style={{color: "white"}} 
+                                    href="https://www.linkedin.com/in/martin-%C5%A1trekelj-951b2818a/">
+                                    <span style={{padding: "5px"}}><FontAwesomeIcon icon={faLinkedin}/></span>
+                                    Martin Štrekelj
+                                </LevelItem>
                             </LevelLeft>
                         </Level>
                     </HeroBody>

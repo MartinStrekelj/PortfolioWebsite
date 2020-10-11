@@ -1,28 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react'
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import './App.css';
-import Navigation from "./sections/Navigation/Navigation";
-import Landing from "./sections/Landing/Landing"
-import About from "./sections/About/About"
-import Portfolio from './sections/Portfolio/Portfolio';
-import Blog from './sections/Blog/Blog';
-import Contact from './sections/Contact/Contact';
+import Homepage from './pages/Homepage';
+import PcBuilds from './pages/PcBuilds';
+import Page404 from './pages/Page404';
 
-class App extends Component {
-
-
-
-  render(){
-    return(
-      <div>
-        <Navigation />
-        <Landing />
-        <About />
-        <Portfolio />
-        <Blog/>
-        <Contact />
-      </div>
-    );
-   }
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Homepage}/>
+        <Route path="/pcbuilding" component={PcBuilds}/>
+        <Route path="*" component={Page404} />
+      </Switch>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

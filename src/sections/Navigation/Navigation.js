@@ -24,9 +24,6 @@ class Navigation extends Component {
                     <NavbarItem href="#contact" className="navbarItem">
                         <Title isSize={6} >Contact</Title>
                     </NavbarItem>
-                    <NavbarItem href="#blog" className="navbarItem">
-                        <Title isSize={6}> Blog </Title>
-                    </NavbarItem>
                 </NavbarEnd> 
             </Navbar>
             </Container>
