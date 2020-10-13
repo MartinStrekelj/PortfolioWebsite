@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
-import { Container, Progress} from "bloomer";
+import React from 'react'
+import {StyledSkills} from './styled';
 
-
-class Skills extends Component {
-
-    render(){
-        return (
-            <Container isFluid="true">
-                <b style={{ padding : "5px"}}>{this.props.skill}</b>
-                <Progress isSize="medium" isColor="warning" value={this.props.skillvalue} max={100}/> 
-            </Container>
-
-        );
-    }
+const Skills = ({field, skills}) => {
+    return (
+        <StyledSkills>
+            <b>{field}</b>
+            {skills && skills.map(skill => <h1>{skill}</h1>)}
+        </StyledSkills>
+    )
 }
 
-export default Skills;
+export default Skills
+

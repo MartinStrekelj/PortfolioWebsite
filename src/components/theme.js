@@ -15,5 +15,6 @@ export const theme = {
         md: "20px",
         lg: "40px",
         xl: "80px"
-    }
+    },
+    mobile: "(min-width: 770px)"
 }

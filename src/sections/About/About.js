@@ -25,15 +25,7 @@ const About = () => {
                             </Column>
                             <Column isSize="1/3">
                                 <Title isSize={2} > Skills </Title>
-                                <Skills skillvalue="95" skill="HTML"></Skills>
-                                <Skills skillvalue="95" skill="CSS"></Skills>
-                                <Skills skillvalue="75" skill="JavaScript"></Skills>
-                                <Skills skillvalue="75" skill="React"></Skills>
-                                <Skills skillvalue="75" skill="Node.js / Express.js"></Skills>
-                                <Skills skillvalue="75" skill="MySQL / PostgreSQL"></Skills>
-                                <Skills skillvalue="60" skill="Flutter"></Skills>
-                                <Skills skillvalue="60" skill="PHP"></Skills>
-                                <Skills skillvalue="50" skill="Flask"></Skills>
+                                <Skills field="Web Development" skills={["html", "css"]} />
                                 </Column>
                         </Columns>  
                     </Container>
