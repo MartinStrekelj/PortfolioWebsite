@@ -1,29 +1,29 @@
-import React, { Component } from 'react';
-import './App.css';
-// import Test from "../components/Test";
+import React, { useState } from "react";
 import Navigation from "../components/Navigation/Navigation";
-import Landing from "../components/Landing/Landing"
-import About from "../components/About/About"
-import Portfolio from '../components/Portfolio/Portfolio';
-import Blog from '../components/Blog/Blog';
-import Contact from '../components/Contact/Contact';
+import Landing from "../components/Landing/Landing";
+import About from "../components/About/About";
+import Portfolio from "../components/Portfolio/Portfolio";
+import Blog from "../components/Blog/Blog";
+import Contact from "../components/Contact/Contact";
+import Rework from "../components/ReworkPage/Rework";
 
-class App extends Component {
+const App = () => {
+  const [legacy, setLegacy] = useState(true);
 
-
-
-  render(){
-    return(
-      <div>
+  if (legacy) {
+    return <Rework CTA={setLegacy} />;
+  } else {
+    return (
+      <>
         <Navigation />
         <Landing />
         <About />
         <Portfolio />
-        <Blog/>
+        <Blog />
         <Contact />
-      </div>
+      </>
     );
-   }
-}
+  }
+};
 
 export default App;

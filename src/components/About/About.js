@@ -6,8 +6,6 @@ import Bio from "../Bio/Bio";
 
 
 const About = () => {
-
-
         return (
             <Hero className="containerZ" isSize="large" isColor="white">
                     <Container className="containerZ" isFluid="true">
