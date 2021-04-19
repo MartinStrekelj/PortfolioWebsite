@@ -1,0 +1,11 @@
+.rework__image {
+    width: 400px;
+    height: 300px;
+}
+
+.rework__cta {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #F50057;
+    cursor: pointer;
+}
